@@ -31,7 +31,7 @@ export default function Home() {
       rating: 4.5,
     },
   ]
-  const handleProductHover = (productId) => {
+  const handleProductHover = (productId:any) => {
     setHoveredProduct(productId);
   };
 
