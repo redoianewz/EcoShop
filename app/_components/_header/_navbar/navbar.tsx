@@ -11,13 +11,13 @@ const Navbar = () => {
   const [showProfileDropdown, setShowProfileDropdown] = useState(false);
 
 
-  let categoryTimeout;
+  let categoryTimeout:any;
 
   const handleCategoriesToggle = () => {
     setShowCategories(!showCategories);
   };
 
-  const handleSubcategoryToggle = (subcategory, setShowSubcategory) => {
+  const handleSubcategoryToggle = (subcategory:string, setShowSubcategory:any) => {
     clearTimeout(categoryTimeout);
     setShowSubcategory(!eval(`show${subcategory}`));
   };
