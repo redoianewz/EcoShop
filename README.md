@@ -1,109 +1,89 @@
+# Podstream
+<div align='center'>
 
-# Trackify
+![GitHub issues](https://img.shields.io/github/issues/rishavchanda/Podstream)
+![GitHub forks](https://img.shields.io/github/forks/rishavchanda/Podstream)
+![GitHub starts](https://img.shields.io/github/stars/rishavchanda/Podstream)
+![GitHub license](https://img.shields.io/github/license/rishavchanda/Podstream)
+![Javascript](https://img.shields.io/badge/Javascript-Language-yellow)
+![HTML](https://img.shields.io/badge/HTML-Hypertext-red)
+![CSS](https://img.shields.io/badge/CSS-Styles-pink)
+![React](https://img.shields.io/badge/React-Components-orange)
 
-Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently.
-#### Web Link: https://trackify.duckdns.org
-| Admin Credentials | Employee Credentials |
-|-----------------------------------------|-----------------------------------------|
-| Email: testadmin@gmail.com |  Email: testemployee@gmail.com |
-| Password- 123@testadmin | Password- 123@Testemployee |
-  
-|  Login                              |                                 |
-|-----------------------------------------|-----------------------------------------|
-| ![Image 1](https://bachen-eco.onrender.com/images/page/home.jpeg) | ![Image 2](https://bachen-eco.onrender.com/images/page/shop.jpeg) |
+</div>
 
-| Admin                                | Employee                                 |
-|-----------------------------------------|-----------------------------------------|
-| ![Image 3](https://bachen-eco.onrender.com/images/page/cart.jpeg) | ![Image 10](https://bachen-eco.onrender.com/images/page/checkout.jpeg) |
-| ![Image 4](https://bachen-eco.onrender.com/images/page/contact.jpeg) | ![Image 11](https://github.com/rishavchanda/Trackify/assets/64485885/df1d5cf4-b623-4c78-9fe4-4744ca271320) |
-| ![Image 5](https://github.com/rishavchanda/Trackify/assets/64485885/39f9083d-61cb-462d-ba85-040679f598b3) | ![Image 12](https://github.com/rishavchanda/Trackify/assets/64485885/2b308d4e-c9a2-4384-9eee-0d1c45236ba5) |
-| ![Image 6](https://github.com/rishavchanda/Trackify/assets/64485885/80df62ef-02f0-4edc-8019-666a29a26a7c) | ![Image 13](https://github.com/rishavchanda/Trackify/assets/64485885/4ec48929-8ad4-499b-b337-0b5cd68aadf8) |
-| ![Image 7](https://github.com/rishavchanda/Trackify/assets/64485885/d9dd8674-6bc0-4e8a-a9fd-46fb721a4e62) | ![Image 14](https://github.com/rishavchanda/Trackify/assets/64485885/343b8f3d-7fce-4bb7-8190-799a406dc460) |
-| ![Image 8](https://github.com/rishavchanda/Trackify/assets/64485885/c951188e-20d4-4ce8-98ce-8c11f4dd507e) | ![Image 15](https://github.com/rishavchanda/Trackify/assets/64485885/73e4747d-f5bc-49f7-95dc-272837910da2) |
-| ![Image 9](https://github.com/rishavchanda/Trackify/assets/64485885/abcf8e67-27ac-4691-a856-b76b3ae3e9db) |                                         |
+## Podcast Streaming Application
 
+### Deployed Link : [View Webapp](https://podstream.netlify.app/)
 
+### This is a web application for streaming podcasts with the following features:
+- User authentication
+- Podcast search functionality
+- Popular podcasts displayed on the main dashboard
+- Admin panel for creating and adding new podcasts
+- Favourite Podcasts
+- Pause podcasts and come back play at same time
 
-## Features
+### Getting Started
+To use the application, simply create an account and log in. From there, you can search for podcasts, view popular podcasts on the main dashboard, and listen to podcasts.
 
-- User Authentication:
+Admin users can access the admin panel to create and add new podcasts, which will be displayed on the main dashboard.
 
-  - Admin Login: Admins can access the system using their unique username and password to manage employee data and tasks.
+### Technologies Used
+The application is built using the following technologies:
 
-  - Employee Login: Employees can log in with their credentials to add and view their tasks.
+- React Js
+- Node Js
+- Mongo Db
+- Google Auth
+- Firebase
 
-- Employee Management:
+## Steps to start the app
 
-  - Admin Dashboard: The admin has the ability to add employees, deactivate accounts, and view a list of all employees.
-  - Employee Profile Update: Employees can update their profile information and password, except for the email ID.
-
-- Task Management:
-  - Add Tasks: Employees can log tasks for each day, including task description, type (break, meeting, or work), start time, and duration.
-  - Date Filtering: Users can filter and view tasks and associated graphical information for specific dates.
-- Graphical Information:
-  - Pie Charts: Two pie charts display task distribution for the current day and the previous day, categorized by break, meeting, and work.
-  - Stacked Bar Chart: A stacked bar chart provides a weekly overview, showing the distribution of not working (including breaks), working (work tasks), and meetings.
-
-## Getting Started
-
-### Pre-requisites
-
-1. Install [Docker](https://docs.docker.com/get-docker/) and [Docker Compose](https://docs.docker.com/compose/install/).
-2. Create a [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) account and set up a cluster.
-
-### Clone the repository
-
-1. Clone the repository: `git clone https://github.com/rishavchanda/Trackify.git`
-
-### Configure the client
-
-1. Navigate to client folder: `cd client`
-2. Build the docker image for the client in dev mode: `docker build -f Dockerfile.dev -t trackify-react-image .`
-3. Set up and configure the environment variables, create a `.env` file in the client folder and add the following environment variables:
-
+### Start the react app
+Go to client folder
 ```
-REACT_APP_API_URL = http://localhost:8800/api
+cd client
+```
+Install the node modules
+```
+npm install
+```
+Start the react app
+```
+npm start
 ```
 
-### Configure the server
-
-1. Navigate to server folder: `cd server`
-2. Build the docker image for the server in dev mode: `docker build -f Dockerfile.dev -t trackify-server-image .`
-3. Set up the database and configure the environment variables by following the instructions in the next steps.
-
-### Set up the database
-
-1. Create a MongoDB Atlas account and set up a cluster.
-2. Create a `.env` file in the server folder and add the following environment variables:
-
+### Start the backend server
+Open a new terminal
+Go to server folder
 ```
-MONGO_URL = <MongoDB connection string>
+cd server
 ```
+Install the node modules
+```
+npm start
+```
+Start the server
+```
+npm start
+```
+### Here is live demo of our web app:
 
-### Run the application
+[Screencast from 27-04-23 07:21:38 PM IST.webm](https://bachen-eco.onrender.com/images/page/home.jpeg)
 
-1. Navigate to the root folder: `cd ..`
-2. Run the docker-compose file: `docker-compose -f docker-compose.yml -f docker-compose-dev.yml  up --build`
-3. Open the application in your browser at `http://localhost:3000`
-4. Server will be running at `http://localhost:8800`
-5. To stop the application, press `Ctrl + C` in the terminal.
 
-## Technologies Used
+### Here are some pictures of the web application:
 
-- Front-End: ReactJS, HTML, CSS, JavaScript
-- Back-End: Node.js, Express.js
-- Database: MongoDB
+![image](https://bachen-eco.onrender.com/images/page/shop.jpeg)
 
-## Contributing
+![image](https://bachen-eco.onrender.com/images/page/cart.jpeg)
 
-We welcome contributions from the community to enhance Trackify. Feel free to submit bug reports, feature requests, or pull requests through the GitHub repository.
+![image](https://bachen-eco.onrender.com/images/page/checkout.jpeg)
 
-## License
+![image](https://bachen-eco.onrender.com/images/page/contact.jpeg)
 
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
-## Contact
+## Conclusion
 
-For any questions or inquiries, please reach out to the development team at [rishavchanda0@gmail.com]
-
-Enjoy using Trackify and stay productive!
+In conclusion, this podcast streaming application provides users with an easy-to-use platform for listening to their favorite podcasts. With features such as user authentication, podcast search, and an admin panel for creating and adding new podcasts, this application offers a comprehensive solution for podcast streaming. 
