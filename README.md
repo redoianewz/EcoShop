@@ -76,8 +76,8 @@ npm start
 ### Here are some pictures of the web application:
 ![image](https://bachen-eco.onrender.com/images/page/home.jpeg)
 ![image](https://bachen-eco.onrender.com/images/page/shop.jpeg)
-
-![image](https://bachen-eco.onrender.com/images/page/cart.jpeg)
+![image](https://bachen-eco.onrender.com/images/page/shop.jpeg)
+![image](https://bachen-eco.onrender.com/images/page/product.jpeg)
 
 ![image](https://bachen-eco.onrender.com/images/page/checkout.jpeg)
 
