@@ -10,12 +10,12 @@ Trackify is a web application designed to streamline task management and enhance
   
 |  Login                              |                                 |
 |-----------------------------------------|-----------------------------------------|
-| ![Image 1](https://github.com/rishavchanda/Trackify/assets/64485885/b8aae2e1-cb85-4d37-93f8-ca95e8141367) | ![Image 2](https://github.com/rishavchanda/Trackify/assets/64485885/eded583f-0e0e-45a2-9f41-017c3d7cb74f) |
+| ![Image 1](https://bachen-eco.onrender.com/images/page/home.jpeg) | ![Image 2](https://bachen-eco.onrender.com/images/page/shop.jpeg) |
 
 | Admin                                | Employee                                 |
 |-----------------------------------------|-----------------------------------------|
-| ![Image 3](https://github.com/rishavchanda/Trackify/assets/64485885/e1f89b04-2788-45b0-abc2-9dec616669e2) | ![Image 10](https://github.com/rishavchanda/Trackify/assets/64485885/c0abba0e-84d3-4299-9325-56c40d4b027b) |
-| ![Image 4](https://github.com/rishavchanda/Trackify/assets/64485885/27fce475-a52f-4f1f-91f4-228a5a4b08ab) | ![Image 11](https://github.com/rishavchanda/Trackify/assets/64485885/df1d5cf4-b623-4c78-9fe4-4744ca271320) |
+| ![Image 3](https://bachen-eco.onrender.com/images/page/cart.jpeg) | ![Image 10](https://bachen-eco.onrender.com/images/page/checkout.jpeg) |
+| ![Image 4](https://bachen-eco.onrender.com/images/page/contact.jpeg) | ![Image 11](https://github.com/rishavchanda/Trackify/assets/64485885/df1d5cf4-b623-4c78-9fe4-4744ca271320) |
 | ![Image 5](https://github.com/rishavchanda/Trackify/assets/64485885/39f9083d-61cb-462d-ba85-040679f598b3) | ![Image 12](https://github.com/rishavchanda/Trackify/assets/64485885/2b308d4e-c9a2-4384-9eee-0d1c45236ba5) |
 | ![Image 6](https://github.com/rishavchanda/Trackify/assets/64485885/80df62ef-02f0-4edc-8019-666a29a26a7c) | ![Image 13](https://github.com/rishavchanda/Trackify/assets/64485885/4ec48929-8ad4-499b-b337-0b5cd68aadf8) |
 | ![Image 7](https://github.com/rishavchanda/Trackify/assets/64485885/d9dd8674-6bc0-4e8a-a9fd-46fb721a4e62) | ![Image 14](https://github.com/rishavchanda/Trackify/assets/64485885/343b8f3d-7fce-4bb7-8190-799a406dc460) |
